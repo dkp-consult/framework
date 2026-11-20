@@ -15,4 +15,4 @@ Inverse links are never stored: `children`, `blocked_by`, `superseded_by`. Reade
 | `estimate` | authorized effort under the project's scale |
 | `work_kind` | `functional` or `technical`, only when the project uses it |
 
-A Task carries no other field. A standalone Task omits `parent`; the intent must be explicit.
+A Task carries no other field. A parent is never also the source. A standalone Task omits `parent`; the intent must be explicit.

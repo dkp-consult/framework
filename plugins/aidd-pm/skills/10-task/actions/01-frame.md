@@ -6,25 +6,22 @@ Define one bounded delivery Task.
 
 A request, parent artifact, existing Task, or current context.
 
+## Process
+
+1. Inspect the source, relevant artifacts, and matching Tasks.
+   - No work can be identified: ask one open question about the outcome, with no draft.
+   - A matching Task: return its existing identity, with no duplicate draft.
+2. Apply [qualification](../references/qualification.md), and on a mismatch apply [handoffs](../references/handoffs.md), with no Task draft.
+3. Ask one question at a time while outcome, scope, completion evidence, or ownership remains blocking.
+4. Fill the [Task template](../assets/task-template.md) sections the source supports and leave the rest out.
+5. Show the complete draft and fold corrections.
+6. Read [review](02-review.md).
+
 ## Output
 
 One Task draft or one clarification question.
 
-## Process
+## Rules
 
-1. **Resolve.** Inspect the source, relevant artifacts, and matching Tasks.
-2. **Qualify.** Apply [qualification](../references/qualification.md). On mismatch, apply [handoffs](../references/handoffs.md).
-3. **Clarify.** Ask one question at a time while outcome, scope, completion evidence, or ownership remains blocking.
-4. **Draft.** Fill the [Task template](../assets/task-template.md) sections the source supports; leave the rest out.
-5. **Feedback.** Show the complete draft and fold corrections.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| No work identified | no draft; one open outcome question |
-| Different work type | no Task draft; the offered capability returned |
-| Existing match | existing identity returned; no duplicate draft |
-| Draft | `type: task`, `status: proposed`, outcome, scope, and done conditions present |
-| Optional metadata | absent unless known and project-supported |
-| Frame | workspace unchanged |
+- Frame writes nothing.
+- Optional metadata stays absent unless it is known and the project supports it.

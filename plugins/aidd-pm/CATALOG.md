@@ -196,7 +196,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [qualification.md](skills/10-task/references/qualification.md) | - |
 | `references` | [readiness.md](skills/10-task/references/readiness.md) | - |
 | `references` | [relations.md](skills/10-task/references/relations.md) | - |
-| `-` | [SKILL.md](skills/10-task/SKILL.md) | `Produces or refines a backlog Task for bounded delivery work without independent user value. Use when the user wants to create, link, order, estimate, transition, or complete one. Not for User Stories, Spikes, Defects, or implementation.` |
+| `-` | [SKILL.md](skills/10-task/SKILL.md) | `Produces or refines a backlog Task for delivery work without independent user value when the user creates, links, orders, estimates, or completes one.` |
 
 #### `skills/11-research-plan`
 
