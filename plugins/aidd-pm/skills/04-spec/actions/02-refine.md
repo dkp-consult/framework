@@ -16,8 +16,10 @@ The spec's path, and the changes to apply.
    - Resolved by a change: drop it.
    - Half answered: narrow it.
    - Still open, or a change that cannot be resolved: list it.
-5. Overwrite the spec, run [validate-spec.cjs](../scripts/validate-spec.cjs) on it, fix, repeat until it passes.
-6. Answer by filling [refine-answer.md](../assets/refine-answer.md).
+5. Show each change as its old and new line, and wait for explicit approval: the request that started the run is not approval.
+   - No approval: say nothing was written and stop.
+6. Overwrite the spec, run [validate-spec.cjs](../scripts/validate-spec.cjs) on it, fix, repeat until it passes.
+7. Answer by filling [refine-answer.md](../assets/refine-answer.md).
 
 ## Output
 

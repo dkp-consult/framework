@@ -11,10 +11,11 @@ flowchart LR
   source([need]) --> build["actions/01-build.md"]
   build -->|"no outcome to name"| asked((one question, no write))
   build --> spec((spec.md, its gaps as questions))
+  build -->|"not approved"| unchanged
   spec -->|"changes"| refine
   changes([spec and changes]) --> refine["actions/02-refine.md"]
   refine --> spec
-  refine -->|"locked, or nothing to change"| unchanged((no write))
+  refine -->|"locked, nothing to change, or not approved"| unchanged((no write))
 ```
 
 ## Transversal rules
