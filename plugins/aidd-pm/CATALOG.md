@@ -138,7 +138,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [persistence.md](skills/06-product-brief/references/persistence.md) | - |
 | `references` | [techniques.md](skills/06-product-brief/references/techniques.md) | - |
 | `references` | [visuals.md](skills/06-product-brief/references/visuals.md) | - |
-| `-` | [SKILL.md](skills/06-product-brief/SKILL.md) | `Produces a concise Product Brief before requirements. Use when the user wants to frame or revisit a product opportunity and how it will be validated. Not for requirements, technical design, or planning.` |
+| `-` | [SKILL.md](skills/06-product-brief/SKILL.md) | `Produces a concise Product Brief when the user frames or revisits a product opportunity and its validation, not for requirements, design, or planning.` |
 
 #### `skills/07-epic`
 

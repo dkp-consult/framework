@@ -6,28 +6,25 @@ Let the user refine, extend, keep, or persist the Product Brief.
 
 The draft, its sources, and authority.
 
-## Output
-
-An authorized Product Brief in session or at its resolved path. After writing, report its stable identity, changed fields as `before -> after`, affected relations, and verification result. Without a write, state that no persisted change occurred.
-
 ## Process
 
-1. **Authorize.** Use caller-provided bounded authority or invite revision, discovery, session approval, or persistence. Without persistence authority, ask session or persist and wait.
-2. **Place.** Apply [persistence](../references/persistence.md) to resolve authorized files.
-3. **Confirm.** Require authority for both files in a replacement.
-4. **Write.** Persist authorized files; preserve user edits.
-5. **Verify.** Read back every changed brief.
-6. **Continue.** Apply [handoffs](../references/handoffs.md) to the next move.
+1. Use caller-provided bounded authority or invite revision, discovery, session approval, or persistence.
+   - Unauthorized draft: leave the workspace unchanged and end with one open feedback question.
+   - Without persistence authority: ask session or persist and wait.
+2. Apply [persistence](../references/persistence.md) to resolve authorized files.
+3. Require authority for both files in a replacement.
+4. Persist authorized files and preserve user edits.
+5. Read back every changed brief and report the result.
+   - After writing: its stable identity, changed fields as `before -> after`, affected relations, and verification result.
+   - Without a write: state that no persisted change occurred.
+6. Apply [handoffs](../references/handoffs.md) to the next move.
+7. Read [discover](02-discover.md) to learn more, [visualize](03-visualize.md) to change the visual, or [shape](04-shape.md) to revise the brief.
 
-## Test
+## Output
 
-| Case | Pass |
-| --- | --- |
-| Unauthorized draft | workspace unchanged; response ends with one open feedback question |
-| Content approval only | workspace unchanged; session or persistence requested |
-| Initial persistence | one `current` brief created; relation fields absent |
-| Existing persistence | one `current` brief changed; unauthorized edits preserved |
-| Replacement | new brief owns `supersedes`; old brief only becomes `superseded` |
-| Report | written path exists, matches the standard path, and is usable as an Epic goal or PRD source |
-| Write receipt | stable identity, `before -> after` fields, affected relations, and verification result reported |
-| No write | response states that no persisted change occurred |
+An authorized Product Brief in session or at its resolved path.
+
+## Rules
+
+- In a replacement, the old brief only becomes `superseded`.
+- A written brief sits at the standard path and is usable as an Epic goal or PRD source.

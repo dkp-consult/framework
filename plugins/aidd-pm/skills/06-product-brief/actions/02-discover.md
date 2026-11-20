@@ -6,25 +6,22 @@ Build an evidence-aware understanding of the product opportunity.
 
 The framed product, evidence path, and user feedback.
 
+## Process
+
+1. Read the selected available sources.
+2. Run only the selected external research.
+3. Apply [techniques](../references/techniques.md) only to unresolved claims, creating no artifact.
+4. Surface contradictions that could change the product.
+5. Ask exactly one unanswered, product-changing question about the highest-impact gap and wait.
+6. Fold the answer into affected claims.
+7. Return to step 5 while an unaccepted consequential gap remains.
+8. Read [visualize](03-visualize.md) when a visual helps, else read [shape](04-shape.md) once ready or the assumptions are accepted.
+
 ## Output
 
 The current opportunity, audience, product bet, evidence, assumptions, and success direction.
 
-## Process
+## Rules
 
-1. **Inspect.** Read the selected available sources.
-2. **Research.** Run only the selected external research.
-3. **Choose.** Apply [techniques](../references/techniques.md) only to unresolved claims.
-4. **Challenge.** Surface contradictions that could change the product.
-5. **Probe.** Ask one question about the highest-impact gap and wait.
-6. **Integrate.** Fold the answer into affected claims.
-7. **Repeat.** Return to `Probe` while an unaccepted consequential gap remains.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| Unsupported product claim | labeled assumption, never evidence or decision |
-| Lens selected | matches the stated uncertainty in `techniques`; creates no artifact |
-| Next question | exactly one unanswered, product-changing question; no answered question repeated |
-| Consequential gap | no draft unless the user accepts it as an assumption |
+- An unsupported product claim is labeled an assumption, never evidence or decision.
+- A consequential gap allows no draft unless the user accepts it as an assumption.
