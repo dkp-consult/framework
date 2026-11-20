@@ -6,21 +6,18 @@ Collect only the evidence that can change the blocked decision.
 
 A spike eligible for investigation, by id, URL, or path.
 
+## Process
+
+1. Resolve one spike and transition it to `in-progress` when allowed by [lifecycle](../references/lifecycle.md).
+   - Terminal Spike: append no attempt.
+2. Apply [investigation](../references/investigation.md) with matching [capabilities](../references/capabilities.md).
+3. Read [conclude](03-conclude.md).
+
 ## Output
 
 Evidence and an outcome status.
 
-## Process
+## Rules
 
-1. **Activate.** Resolve one spike and transition it to `in-progress` when allowed by [lifecycle](../references/lifecycle.md).
-2. **Investigate.** Apply [investigation](../references/investigation.md) with matching [capabilities](../references/capabilities.md).
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| Terminal Spike | no attempt appended |
-| Activation | frontmatter moves from `open` to `in-progress` |
-| Attempts | each records method, evidence, and result; retries differ |
-| Unapproved path | evidence kept; status unchanged; user asked |
-| Output | evidence and a lifecycle status returned; history preserved; only the Spike changes |
+- A next path the user has not approved keeps the evidence and leaves the status unchanged until the user answers.
+- Investigation preserves the attempt history and changes only the Spike.

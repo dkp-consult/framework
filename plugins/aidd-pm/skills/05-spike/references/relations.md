@@ -12,4 +12,4 @@ Inverse links are never stored: `children`, `blocked_by`, `superseded_by`. Reade
 | `related_to` | additive relation, one or several |
 | `supersedes` | replaced Spikes, in a terminal status first; one or several |
 
-A Spike carries no other field. It holds neither `order` nor `estimate`: a Spike is bounded by its stop condition, not sized or scheduled.
+A Spike carries no other field. A parent is never also the source: omit `source` when the parent is the only origin, never invent one. It holds neither `order` nor `estimate`: a Spike is bounded by its stop condition, not sized or scheduled.

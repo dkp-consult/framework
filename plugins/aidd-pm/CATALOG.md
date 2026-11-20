@@ -120,7 +120,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [persistence.md](skills/05-spike/references/persistence.md) | - |
 | `references` | [qualification.md](skills/05-spike/references/qualification.md) | - |
 | `references` | [relations.md](skills/05-spike/references/relations.md) | - |
-| `-` | [SKILL.md](skills/05-spike/SKILL.md) | `Produces an evidence-bounded spike for an uncertainty blocking estimation, feasibility, or design. Use when the user wants to frame, investigate, resume, or conclude one. Not for general research or implementation.` |
+| `-` | [SKILL.md](skills/05-spike/SKILL.md) | `Frames, investigates, resumes, or concludes a spike when an uncertainty blocks estimation, feasibility, or design, not for general research or code.` |
 
 #### `skills/06-product-brief`
 
