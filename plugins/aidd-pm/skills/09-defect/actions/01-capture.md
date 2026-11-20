@@ -6,25 +6,21 @@ Frame one observed mismatch as a Defect report.
 
 A report, evidence, existing Defect, or current context.
 
+## Process
+
+1. Inspect the supplied source, relevant artifacts, and matching Defects.
+   - A matching Defect: return its existing identity, with no duplicate draft.
+2. Apply [qualification](../references/qualification.md), and on a mismatch apply [handoffs](../references/handoffs.md), with no draft.
+3. Ask one question, with no draft, only when expected behavior, actual behavior, or impact cannot be resolved, choosing a question that can also determine the work type.
+4. Fill the [Defect template](../assets/defect-template.md) sections the source supports and leave the rest out, unsupported evidence or reproduction included.
+5. Fill the front matter relation keys the context supports per [relations](../references/relations.md), the affected Story under `related_to`, and remove every front matter key with no value.
+6. Show the complete report and fold corrections.
+7. Read [assess](02-assess.md).
+
 ## Output
 
 One Defect draft or one clarification question.
 
-## Process
+## Rules
 
-1. **Resolve.** Inspect the supplied source, relevant artifacts, and matching Defects.
-2. **Qualify.** Apply [qualification](../references/qualification.md). On mismatch, apply [handoffs](../references/handoffs.md).
-3. **Clarify.** Ask one question only when expected behavior, actual behavior, or impact cannot be resolved.
-4. **Draft.** Fill the [Defect template](../assets/defect-template.md) sections the source supports; leave the rest out.
-5. **Feedback.** Show the complete report and fold corrections.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| Unclear mismatch | no draft; one question that can determine the work type |
-| Different work type | no draft; the offered capability returned |
-| Existing match | existing identity returned; no duplicate draft |
-| Report | `type: defect`, `status: reported`, title, expected, actual, and impact present |
-| Evidence gap | unsupported evidence or reproduction omitted |
-| Capture | workspace unchanged |
+- Capture writes nothing.

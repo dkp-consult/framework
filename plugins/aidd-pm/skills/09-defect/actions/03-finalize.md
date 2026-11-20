@@ -6,30 +6,29 @@ Persist or transition the authorized Defect.
 
 One Defect, the change asked of it, and the authority for that change.
 
-## Output
-
-A session draft or one created or updated Defect identity. After a write, report the stable identity, changed fields as `before -> after`, affected relations, and the verification result. For a draft or no-write result, state that no persisted change occurred.
-
 ## Process
 
-1. **Resolve.** Apply [persistence](../references/persistence.md) to select the support and identity.
-2. **Status.** Apply [lifecycle](../references/lifecycle.md) to every requested transition.
-3. **Authorize.** Confirm approval or bounded write authority; otherwise return the proposal.
-4. **Link.** Apply [relations](../references/relations.md).
-5. **Write.** Create or update only the authorized Defect and preserve unrelated fields.
-6. **Verify.** Read the affected graph back and report what changed.
-7. **Continue.** Apply [handoffs](../references/handoffs.md) to the next move.
+1. Apply [persistence](../references/persistence.md) to select the support and identity.
+2. Apply [lifecycle](../references/lifecycle.md) to every requested transition.
+3. Show the draft or change and its status, ask for approval, and wait: the request that started the run is not approval.
+   - Only a calling skill or agent that names this exact write skips the wait, never the user's request.
+   - No approval: return the proposal and leave the Defect and related artifacts unchanged.
+4. Apply [relations](../references/relations.md).
+   - The requested `order` value is occupied: return it without choosing another, with no write.
+5. Create or update only the authorized Defect and preserve unrelated fields.
+6. Read the affected graph back and report the result.
+   - After a write: the stable identity, changed fields as `before -> after`, affected relations, and the verification result.
+   - A draft or no-write result: state that no persisted change occurred.
+7. Apply [handoffs](../references/handoffs.md) to the next move.
+8. Read [capture](01-capture.md) when the user asks to revise.
 
-## Test
+## Output
 
-| Case | Pass |
-| --- | --- |
-| Unauthorized | Defect and related artifacts unchanged |
-| Transition only | state changes; no new draft |
-| Affected artifacts | their reassessment is proposed, never inferred |
-| No target | no write; session or Markdown requested |
-| Existing match | identity preserved; no duplicate created |
-| Order conflict | no write; occupied value returned without choosing another |
-| Reported | one file under the standard path; unsupported sections absent |
-| Ready | Expected, Actual, Reproduction, Impact, and Evidence are non-empty |
-| Done | verification proves expected behavior is restored |
+A session draft or one created or updated Defect identity.
+
+## Rules
+
+- The reassessment of affected artifacts is proposed, never inferred.
+- A `ready` Defect has non-empty Expected, Actual, Reproduction, Impact, and Evidence sections.
+- Done requires verification that proves the expected behavior is restored.
+- The planned check stays in `Expected`, `Verification` appears only with verification evidence, and `Cancellation` only when the status is `cancelled`, never empty.

@@ -14,3 +14,5 @@ Inverse links are never stored: `children`, `blocked_by`, `superseded_by`. Reade
 | `estimate` | authorized effort under the project's scale |
 
 A Defect carries no other field. It has no `parent`: resolution work is a Task whose `parent` is the Defect.
+
+A field that holds one or several values is always a list, even with a single value.

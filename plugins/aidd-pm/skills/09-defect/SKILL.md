@@ -1,6 +1,6 @@
 ---
 name: 09-defect
-description: Produces or refines a backlog Defect from an observed product mismatch. Use when the user wants to report, assess, link, order, transition, or verify a defect. Not for incident response, debugging, or implementation.
+description: Produces or refines a backlog Defect when the user reports, assesses, links, orders, transitions, or verifies one, not for incidents or debugging.
 argument-hint: report | defect
 ---
 
@@ -8,28 +8,20 @@ argument-hint: report | defect
 
 ```mermaid
 flowchart LR
-  source([report or Defect]) --> capture --> assess --> finalize
-  source -->|"already persisted"| finalize
+  source([report or Defect]) --> capture["actions/01-capture.md"]
+  source -->|"already persisted"| finalize["actions/03-finalize.md"]
+  capture --> assess["actions/02-assess.md"]
   assess -->|"revise"| capture
+  assess --> finalize
   finalize -->|"revise"| capture
   finalize -->|"authorized"| done([Defect])
 ```
-
-## Actions
-
-Run the flow above. Read only the next action file.
-
-| Action   | Does                                      |
-| -------- | ----------------------------------------- |
-| capture  | frame one observed product mismatch       |
-| assess   | establish evidence, impact, and readiness |
-| finalize | persist or transition the Defect           |
 
 ## Transversal rules
 
 - Keep product and lifecycle decisions with the user.
 - Separate evidence, decisions, and assumptions.
 - Preserve source links and existing edits.
-- Ask natural questions; never expose actions, references, or unchanged state.
-- Require explicit approval or caller-provided bounded authority before any write.
-- Record the mismatch; never diagnose or implement its fix.
+- Ask natural questions and never expose actions, references, or unchanged state.
+- Require explicit approval or bounded authority before any write, bounded authority being a grant from a calling skill or agent that names the exact write, never a user request.
+- Record the mismatch and never diagnose or implement its fix.
