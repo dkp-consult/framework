@@ -6,19 +6,13 @@ Save the approved PRD.
 
 One approved PRD draft.
 
+## Process
+
+1. Write to `aidd_docs/tasks/<yyyy_mm>/<yyyy_mm_dd>-<feature_name>-prd.md`, creating the month directory when missing.
+2. Read the saved PRD back, confirm the file exists on disk, and report the result.
+   - After a write: the PRD identity and the verification result.
+   - No write happened: state that no persisted change occurred.
+
 ## Output
 
 The saved PRD, or no change if not written.
-
-## Process
-
-1. **Save.** Write to `aidd_docs/tasks/<yyyy_mm>/<yyyy_mm_dd>-<feature_name>-prd.md`, creating the month directory when missing.
-2. **Verify.** Read the saved PRD back and report what changed.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| Save succeeds | the PRD file exists on disk |
-| Save reported | identity and verification result |
-| No write happened | the result states that no persisted change occurred |
