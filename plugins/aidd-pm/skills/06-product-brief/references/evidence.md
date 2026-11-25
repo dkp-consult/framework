@@ -10,6 +10,7 @@ Use each source only for what it can support.
 | Code and tests | implemented behavior | motivation or value |
 | Existing discovery | claims to re-check | current truth |
 | Competitors, reviews, forums | public claims and reported experience | target-user truth |
+| Insights registry | rated findings with their confidence | more than its confidence allows |
 
 | Case | Handling |
 | --- | --- |

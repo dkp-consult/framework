@@ -21,6 +21,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
   - [`skills/09-defect`](#skills09-defect)
   - [`skills/10-task`](#skills10-task)
   - [`skills/11-research-plan`](#skills11-research-plan)
+  - [`skills/12-insights`](#skills12-insights)
 
 ---
 
@@ -219,4 +220,25 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [qualification.md](skills/11-research-plan/references/qualification.md) | - |
 | `references` | [sources-registry.md](skills/11-research-plan/references/sources-registry.md) | - |
 | `-` | [SKILL.md](skills/11-research-plan/SKILL.md) | `Produces a research plan turning unproven assumptions into collectable evidence when the user prepares research, not for collecting or synthesizing.` |
+
+#### `skills/12-insights`
+
+| Group | File | Description |
+|-------|------|---|
+| `actions` | [01-scope.md](skills/12-insights/actions/01-scope.md) | - |
+| `actions` | [02-gather.md](skills/12-insights/actions/02-gather.md) | - |
+| `actions` | [03-cluster.md](skills/12-insights/actions/03-cluster.md) | - |
+| `actions` | [04-confront.md](skills/12-insights/actions/04-confront.md) | - |
+| `actions` | [05-persist.md](skills/12-insights/actions/05-persist.md) | - |
+| `assets` | [insights.md](skills/12-insights/assets/insights.md) | - |
+| `assets` | [po-practices.md](skills/12-insights/assets/po-practices.md) | - |
+| `references` | [confrontation.md](skills/12-insights/references/confrontation.md) | - |
+| `references` | [handoffs.md](skills/12-insights/references/handoffs.md) | - |
+| `references` | [persistence.md](skills/12-insights/references/persistence.md) | - |
+| `references` | [practices.md](skills/12-insights/references/practices.md) | - |
+| `references` | [rating.md](skills/12-insights/references/rating.md) | - |
+| `references` | [scope.md](skills/12-insights/references/scope.md) | - |
+| `references` | [signals.md](skills/12-insights/references/signals.md) | - |
+| `references` | [sources-registry.md](skills/12-insights/references/sources-registry.md) | - |
+| `-` | [SKILL.md](skills/12-insights/SKILL.md) | `Turns customer signals into evidence-rated insights when the user wants to synthesize tickets, interviews, surveys, or exports, not for market watch.` |
 
