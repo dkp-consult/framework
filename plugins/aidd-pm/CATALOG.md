@@ -22,6 +22,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
   - [`skills/10-task`](#skills10-task)
   - [`skills/11-research-plan`](#skills11-research-plan)
   - [`skills/12-insights`](#skills12-insights)
+  - [`skills/13-market-watch`](#skills13-market-watch)
   - [`skills/15-impact`](#skills15-impact)
 
 ---
@@ -242,6 +243,26 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [signals.md](skills/12-insights/references/signals.md) | - |
 | `references` | [sources-registry.md](skills/12-insights/references/sources-registry.md) | - |
 | `-` | [SKILL.md](skills/12-insights/SKILL.md) | `Turns customer signals into evidence-rated insights when the user wants to synthesize tickets, interviews, surveys, or exports, not for market watch.` |
+
+#### `skills/13-market-watch`
+
+| Group | File | Description |
+|-------|------|---|
+| `actions` | [01-scope.md](skills/13-market-watch/actions/01-scope.md) | - |
+| `actions` | [02-scan.md](skills/13-market-watch/actions/02-scan.md) | - |
+| `actions` | [03-compare.md](skills/13-market-watch/actions/03-compare.md) | - |
+| `actions` | [04-persist.md](skills/13-market-watch/actions/04-persist.md) | - |
+| `assets` | [insights.md](skills/13-market-watch/assets/insights.md) | - |
+| `assets` | [journal.md](skills/13-market-watch/assets/journal.md) | - |
+| `assets` | [po-practices.md](skills/13-market-watch/assets/po-practices.md) | - |
+| `references` | [comparison.md](skills/13-market-watch/references/comparison.md) | - |
+| `references` | [handoffs.md](skills/13-market-watch/references/handoffs.md) | - |
+| `references` | [insights-registry.md](skills/13-market-watch/references/insights-registry.md) | - |
+| `references` | [persistence.md](skills/13-market-watch/references/persistence.md) | - |
+| `references` | [practices.md](skills/13-market-watch/references/practices.md) | - |
+| `references` | [scanning.md](skills/13-market-watch/references/scanning.md) | - |
+| `references` | [watchlist.md](skills/13-market-watch/references/watchlist.md) | - |
+| `-` | [SKILL.md](skills/13-market-watch/SKILL.md) | `Tracks declared competitors with dated, cited observations when the user wants to run or resume a market watch, not for user feedback or one claim.` |
 
 #### `skills/15-impact`
 
