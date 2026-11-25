@@ -7,7 +7,7 @@
       "op": "template",
       "in": "*.md",
       "template": "../assets/user-story-template.md",
-      "optional": ["Cancellation"],
+      "optional": ["Cancellation", "source", "parent", "depends_on", "related_to", "supersedes", "order", "estimate"],
       "values": { "status": ["proposed", "ready", "in-progress", "done", "cancelled"] },
       "why": "the backlog reads every story the same way",
       "fix": "follow user-story-template.md"

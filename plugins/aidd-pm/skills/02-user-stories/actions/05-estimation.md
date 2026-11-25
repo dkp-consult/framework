@@ -6,20 +6,18 @@ Estimate Stories only when requested or required by the project.
 
 The assessed Stories and project estimation convention.
 
+## Process
+
+1. Apply [estimation](../references/estimation.md).
+2. Explain the evidence for each estimate.
+3. Record only user- or team-confirmed estimates.
+4. Read [order](06-order.md).
+
 ## Output
 
 Confirmed estimates, or unchanged Stories.
 
-## Process
+## Rules
 
-1. **Size.** Apply [estimation](../references/estimation.md).
-2. **Propose.** Explain the evidence for each estimate.
-3. **Confirm.** Record only user- or team-confirmed estimates.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| No project scale | action skipped; no estimate field |
-| Insufficient evidence | no estimate unless the user or team supplies one |
-| Confirmed estimate | project scale used and comparable evidence or team basis named |
+- With no project scale the action is skipped and adds no estimate field.
+- A confirmed estimate uses the project scale and names comparable evidence or the team basis.

@@ -6,25 +6,24 @@ Determine each Story's readiness and blockers.
 
 The Story drafts.
 
+## Process
+
+1. Apply [readiness](../references/readiness.md) to every Story.
+2. Apply [handoffs](../references/handoffs.md) and [relations](../references/relations.md).
+3. Return an oversized or non-valuable Story to slicing.
+4. Use `ready` only when every readiness criterion passes.
+   - Any criterion fails: keep `proposed` and list only readiness blockers.
+5. Show changed or `proposed` Stories and ask about the highest gap.
+   - Set unchanged and ready: continue without intermediate output, never past the approval finalize waits for.
+6. Read [slice](02-slice.md) on a reshape, else read [estimation](05-estimation.md).
+
 ## Output
 
 The Story documents with their status, and a Spike for any blocking unknown.
 
-## Process
+## Rules
 
-1. **Quality.** Apply [readiness](../references/readiness.md) to every Story.
-2. **Unknowns.** Apply [handoffs](../references/handoffs.md) and [relations](../references/relations.md).
-3. **Reshape.** Return an oversized or non-valuable Story to slicing.
-4. **Status.** Use `ready` only when every readiness criterion passes. Otherwise keep `proposed` and list only readiness blockers.
-5. **Feedback.** Show changed or `proposed` Stories and ask about the highest gap; otherwise continue.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| Ready | every readiness row passes; no blocker left to show |
-| Proposed | each failed row maps to one sourced gap |
-| Unapproved blocker | Story remains; Spike offered; related artifacts unchanged |
-| Approved blocker | Spike `parents` names the Story; no inverse field is mirrored |
-| Unchanged ready set | no intermediate output |
-| Output | no assessment summary, empty field, tooling gap, or skipped-route report |
+- Each failed readiness row maps to one sourced gap.
+- An unapproved blocker leaves the Story in place, offers a Spike, and leaves related artifacts unchanged.
+- An approved blocker Spike names the Story in its `parents`, with no inverse field mirrored.
+- Output carries no assessment summary, empty field, tooling gap, or skipped-route report.
