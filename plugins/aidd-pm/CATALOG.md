@@ -22,6 +22,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
   - [`skills/10-task`](#skills10-task)
   - [`skills/11-research-plan`](#skills11-research-plan)
   - [`skills/12-insights`](#skills12-insights)
+  - [`skills/15-impact`](#skills15-impact)
 
 ---
 
@@ -241,4 +242,26 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [signals.md](skills/12-insights/references/signals.md) | - |
 | `references` | [sources-registry.md](skills/12-insights/references/sources-registry.md) | - |
 | `-` | [SKILL.md](skills/12-insights/SKILL.md) | `Turns customer signals into evidence-rated insights when the user wants to synthesize tickets, interviews, surveys, or exports, not for market watch.` |
+
+#### `skills/15-impact`
+
+| Group | File | Description |
+|-------|------|---|
+| `actions` | [01-arm.md](skills/15-impact/actions/01-arm.md) | - |
+| `actions` | [02-measure.md](skills/15-impact/actions/02-measure.md) | - |
+| `actions` | [03-judge.md](skills/15-impact/actions/03-judge.md) | - |
+| `actions` | [04-persist.md](skills/15-impact/actions/04-persist.md) | - |
+| `assets` | [impact-report.md](skills/15-impact/assets/impact-report.md) | - |
+| `assets` | [insights.md](skills/15-impact/assets/insights.md) | - |
+| `assets` | [po-practices.md](skills/15-impact/assets/po-practices.md) | - |
+| `references` | [arming.md](skills/15-impact/references/arming.md) | - |
+| `references` | [confounders.md](skills/15-impact/references/confounders.md) | - |
+| `references` | [handoffs.md](skills/15-impact/references/handoffs.md) | - |
+| `references` | [insights-registry.md](skills/15-impact/references/insights-registry.md) | - |
+| `references` | [judgment.md](skills/15-impact/references/judgment.md) | - |
+| `references` | [lifecycle.md](skills/15-impact/references/lifecycle.md) | - |
+| `references` | [persistence.md](skills/15-impact/references/persistence.md) | - |
+| `references` | [practices.md](skills/15-impact/references/practices.md) | - |
+| `references` | [sources-registry.md](skills/15-impact/references/sources-registry.md) | - |
+| `-` | [SKILL.md](skills/15-impact/SKILL.md) | `Measures whether a released change moved its success signal against a frozen rule when preparing or judging it, not for acceptance or cost checks.` |
 
