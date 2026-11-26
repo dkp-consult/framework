@@ -78,7 +78,7 @@ Code transformation: plan, implement, assert, audit, review, test, refactor, deb
 
 ## 📋 aidd-pm
 
-Product backlog artifacts, refinement, Product Briefs, Epics, User Stories, Tasks, Spikes, Defects, research plans, insights, market watch, impact, requirements, and specs.
+Product backlog artifacts, refinement, Product Briefs, Epics, User Stories, Tasks, Spikes, Defects, research plans, insights, market watch, prioritization, impact, requirements, and specs.
 
 | Skill                     | Role                                                       | Actions                          |
 | ------------------------- | ---------------------------------------------------------- | -------------------------------- |
@@ -95,6 +95,7 @@ Product backlog artifacts, refinement, Product Briefs, Epics, User Stories, Task
 | `11-research-plan`        | Turn unproven assumptions into a collectable research plan | `01-inventory` to `05-persist`   |
 | `12-insights`             | Synthesize customer signals into evidence-rated insights   | `01-scope` to `05-persist`       |
 | `13-market-watch`         | Track declared competitors with dated, cited observations  | `01-scope` to `04-persist`       |
+| `14-prioritize`           | Rank a backlog with a recorded method and cited criteria   | `01-method` to `05-propose`      |
 | `15-impact`               | Measure a released change against a frozen baseline        | `01-arm` to `04-persist`         |
 
 <!--extras-aidd-pm:start-->

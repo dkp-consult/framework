@@ -23,6 +23,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
   - [`skills/11-research-plan`](#skills11-research-plan)
   - [`skills/12-insights`](#skills12-insights)
   - [`skills/13-market-watch`](#skills13-market-watch)
+  - [`skills/14-prioritize`](#skills14-prioritize)
   - [`skills/15-impact`](#skills15-impact)
 
 ---
@@ -263,6 +264,30 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [scanning.md](skills/13-market-watch/references/scanning.md) | - |
 | `references` | [watchlist.md](skills/13-market-watch/references/watchlist.md) | - |
 | `-` | [SKILL.md](skills/13-market-watch/SKILL.md) | `Tracks declared competitors with dated, cited observations when the user wants to run or resume a market watch, not for user feedback or one claim.` |
+
+#### `skills/14-prioritize`
+
+| Group | File | Description |
+|-------|------|---|
+| `actions` | [01-method.md](skills/14-prioritize/actions/01-method.md) | - |
+| `actions` | [02-gather.md](skills/14-prioritize/actions/02-gather.md) | - |
+| `actions` | [03-score.md](skills/14-prioritize/actions/03-score.md) | - |
+| `actions` | [04-rank.md](skills/14-prioritize/actions/04-rank.md) | - |
+| `actions` | [05-propose.md](skills/14-prioritize/actions/05-propose.md) | - |
+| `assets` | [po-practices.md](skills/14-prioritize/assets/po-practices.md) | - |
+| `assets` | [priorities-snapshot.md](skills/14-prioritize/assets/priorities-snapshot.md) | - |
+| `references` | [change-set.md](skills/14-prioritize/references/change-set.md) | - |
+| `references` | [custom-method.md](skills/14-prioritize/references/custom-method.md) | - |
+| `references` | [delta-run.md](skills/14-prioritize/references/delta-run.md) | - |
+| `references` | [evidence.md](skills/14-prioritize/references/evidence.md) | - |
+| `references` | [handoffs.md](skills/14-prioritize/references/handoffs.md) | - |
+| `references` | [methods.md](skills/14-prioritize/references/methods.md) | - |
+| `references` | [persistence.md](skills/14-prioritize/references/persistence.md) | - |
+| `references` | [practices.md](skills/14-prioritize/references/practices.md) | - |
+| `references` | [ranking.md](skills/14-prioritize/references/ranking.md) | - |
+| `references` | [scoring.md](skills/14-prioritize/references/scoring.md) | - |
+| `references` | [sensitivity.md](skills/14-prioritize/references/sensitivity.md) | - |
+| `-` | [SKILL.md](skills/14-prioritize/SKILL.md) | `Ranks one backlog by the recorded method when the user wants to choose a method, score items, or see what flips the order, not for sibling Stories.` |
 
 #### `skills/15-impact`
 
