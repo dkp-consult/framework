@@ -154,7 +154,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [qualification.md](skills/07-epic/references/qualification.md) | - |
 | `references` | [readiness.md](skills/07-epic/references/readiness.md) | - |
 | `references` | [relations.md](skills/07-epic/references/relations.md) | - |
-| `-` | [SKILL.md](skills/07-epic/SKILL.md) | `Produces or refines an outcome-based Epic for a product backlog. Use when the user wants to frame, review, resume, or persist an Epic. Not for Product Briefs, User Stories, or implementation.` |
+| `-` | [SKILL.md](skills/07-epic/SKILL.md) | `Produces or refines an outcome-based Epic when the user wants to frame, review, resume, or persist one, not for Product Briefs, Stories, or code.` |
 
 #### `skills/08-three-amigos`
 

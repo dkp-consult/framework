@@ -28,4 +28,4 @@ status: proposed
 
 ## Cancellation
 
-{{why it is no longer pursued}}
+{{only when `cancelled`: why it is no longer pursued}}
