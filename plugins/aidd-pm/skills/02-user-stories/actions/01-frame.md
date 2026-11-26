@@ -6,22 +6,20 @@ Resolve the source and bound one set of User Stories.
 
 An Epic, Product Brief, PRD, bounded request, existing Stories, or current context.
 
+## Process
+
+1. Inspect the supplied source, relevant project artifacts, and matching backlog items.
+   - No need can be resolved: ask one open question for it, with no candidate.
+2. Apply [qualification](../references/qualification.md), and on a mismatch apply [handoffs](../references/handoffs.md).
+3. Keep only sourced actor, need, outcome, boundaries, source, and parent.
+4. Ask one question and wait when any missing value can change the Story.
+   - Outcome missing: ask one open question for the user or stakeholder value, with no candidate.
+5. Read [slice](02-slice.md).
+
 ## Output
 
 One confirmed Story scope with its source and optional parent.
 
-## Process
+## Rules
 
-1. **Resolve.** Inspect the supplied source, relevant project artifacts, and matching backlog items. Ask for the need only when none can be resolved.
-2. **Qualify.** Apply [qualification](../references/qualification.md). On mismatch, apply [handoffs](../references/handoffs.md).
-3. **Bound.** Keep only sourced actor, need, outcome, boundaries, source, and parent.
-4. **Confirm.** Ask one question and wait when any missing value can change the Story.
-
-## Test
-
-| Case | Pass |
-| --- | --- |
-| No source | no candidate; one open question for the need |
-| Missing outcome | no candidate; one open question for the user or stakeholder value |
-| Different work type | no Story candidate; the offered capability returned |
-| Valid scope | one outcome, explicit boundaries, identified source, and confirmed parent when present |
+- A valid scope holds one outcome, explicit boundaries, an identified source, and a confirmed parent when present.

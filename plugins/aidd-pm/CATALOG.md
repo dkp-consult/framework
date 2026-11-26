@@ -82,7 +82,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [slicing.md](skills/02-user-stories/references/slicing.md) | - |
 | `scripts` | [contract.json](skills/02-user-stories/scripts/contract.json) | - |
 | `scripts` | [validate-story.cjs](skills/02-user-stories/scripts/validate-story.cjs) | - |
-| `-` | [SKILL.md](skills/02-user-stories/SKILL.md) | `Produces or refines ordered User Stories from an Epic, Product Brief, PRD, or bounded request. Use when the user wants to slice, write, assess, order, or persist Stories. Not for Epics or implementation.` |
+| `-` | [SKILL.md](skills/02-user-stories/SKILL.md) | `Produces or refines ordered User Stories from a source when the user wants to slice, write, assess, order, or persist them, not for Epics or code.` |
 
 #### `skills/03-prd`
 
