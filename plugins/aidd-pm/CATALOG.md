@@ -20,6 +20,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
   - [`skills/08-three-amigos`](#skills08-three-amigos)
   - [`skills/09-defect`](#skills09-defect)
   - [`skills/10-task`](#skills10-task)
+  - [`skills/11-research-plan`](#skills11-research-plan)
 
 ---
 
@@ -192,4 +193,30 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [readiness.md](skills/10-task/references/readiness.md) | - |
 | `references` | [relations.md](skills/10-task/references/relations.md) | - |
 | `-` | [SKILL.md](skills/10-task/SKILL.md) | `Produces or refines a backlog Task for bounded delivery work without independent user value. Use when the user wants to create, link, order, estimate, transition, or complete one. Not for User Stories, Spikes, Defects, or implementation.` |
+
+#### `skills/11-research-plan`
+
+| Group | File | Description |
+|-------|------|---|
+| `actions` | [01-inventory.md](skills/11-research-plan/actions/01-inventory.md) | - |
+| `actions` | [02-qualify.md](skills/11-research-plan/actions/02-qualify.md) | - |
+| `actions` | [03-method.md](skills/11-research-plan/actions/03-method.md) | - |
+| `actions` | [04-kit.md](skills/11-research-plan/actions/04-kit.md) | - |
+| `actions` | [05-persist.md](skills/11-research-plan/actions/05-persist.md) | - |
+| `assets` | [export-request.md](skills/11-research-plan/assets/export-request.md) | - |
+| `assets` | [interview-guide.md](skills/11-research-plan/assets/interview-guide.md) | - |
+| `assets` | [po-practices.md](skills/11-research-plan/assets/po-practices.md) | - |
+| `assets` | [research-plan.md](skills/11-research-plan/assets/research-plan.md) | - |
+| `assets` | [sources.md](skills/11-research-plan/assets/sources.md) | - |
+| `assets` | [survey.md](skills/11-research-plan/assets/survey.md) | - |
+| `assets` | [watchlist.md](skills/11-research-plan/assets/watchlist.md) | - |
+| `references` | [coverage.md](skills/11-research-plan/references/coverage.md) | - |
+| `references` | [handoffs.md](skills/11-research-plan/references/handoffs.md) | - |
+| `references` | [lifecycle.md](skills/11-research-plan/references/lifecycle.md) | - |
+| `references` | [methods.md](skills/11-research-plan/references/methods.md) | - |
+| `references` | [persistence.md](skills/11-research-plan/references/persistence.md) | - |
+| `references` | [practices.md](skills/11-research-plan/references/practices.md) | - |
+| `references` | [qualification.md](skills/11-research-plan/references/qualification.md) | - |
+| `references` | [sources-registry.md](skills/11-research-plan/references/sources-registry.md) | - |
+| `-` | [SKILL.md](skills/11-research-plan/SKILL.md) | `Produces a research plan turning unproven assumptions into collectable evidence when the user prepares research, not for collecting or synthesizing.` |
 

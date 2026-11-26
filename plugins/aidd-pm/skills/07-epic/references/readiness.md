@@ -10,7 +10,7 @@
 | Relations | source, dependencies, and blockers are linked or absent |
 | Unknowns | each is accepted, deferred, or assigned a Spike |
 
-An assumption is accepted once it is stated to the user and left uncontradicted; it is recorded under `Dependencies and Unknowns`. Anything else is inference.
+An assumption is accepted once it is stated to the user and left uncontradicted. One the outcome or the need rests on is accepted only when the user explicitly accepts the risk, never by silence; it is then recorded as an accepted risk. Every accepted assumption is recorded under `Dependencies and Unknowns`. Anything else is inference.
 
 An absent goal does not block readiness; backlog review asks about alignment on its own.
 

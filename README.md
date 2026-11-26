@@ -11,7 +11,7 @@ Unify **engineering teams** around **standardized workflows** and **shared best 
 🧱 **IDE agnostic** · 🏗️ **Legacy systems** · 🌱 **Token-optimized** · 🇫🇷 **Made in France**
 
 <p>
-  <!--counts:start--><kbd>9 plugins</kbd> · <kbd>58 skills</kbd> · <kbd>4 agents</kbd><!--counts:end-->
+  <!--counts:start--><kbd>9 plugins</kbd> · <kbd>59 skills</kbd> · <kbd>4 agents</kbd><!--counts:end-->
 </p>
 
 [![Open Source](https://img.shields.io/badge/Open_Source-Yes-yellow?logo=open-source-initiative&logoColor=white)](https://opensource.org/)
@@ -161,7 +161,7 @@ Commits, pull requests, release tags, issues
 <a href="plugins/aidd-pm/README.md">
 <img align="right" alt="stable" src="https://img.shields.io/badge/stable-2da44e?style=flat-square" />
 <h3>📋 aidd-pm</h3>
-10 skills · 4 hooks<br />
+11 skills · 4 hooks<br />
 Briefs, Epics, Stories, specs, Spikes, Defects
 </a>
 </td>
