@@ -164,7 +164,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `actions` | [02-reconcile.md](skills/08-three-amigos/actions/02-reconcile.md) | - |
 | `references` | [assessment.md](skills/08-three-amigos/references/assessment.md) | - |
 | `references` | [reconciliation.md](skills/08-three-amigos/references/reconciliation.md) | - |
-| `-` | [SKILL.md](skills/08-three-amigos/SKILL.md) | `Assesses an Epic or Story through one product, delivery, or quality lens, then reconciles three caller-supplied reports. Use when the user wants to refine one before a backlog change. Not for spawning or writing.` |
+| `-` | [SKILL.md](skills/08-three-amigos/SKILL.md) | `Assesses an Epic or Story through one product, delivery, or quality lens, or reconciles three supplied reports, not for spawning or writing.` |
 
 #### `skills/09-defect`
 
