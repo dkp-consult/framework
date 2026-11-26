@@ -1,6 +1,6 @@
 ---
 name: 01-ticket-info
-description: Retrieve and display a ticket from the configured ticketing tool. Use when the user wants to see, show, or look up a ticket's details. Not for creating a ticket, or commenting on, transitioning, or reassigning one.
+description: Retrieves and shows a ticket from the configured tool when the user wants to see one, not for creating, commenting on, transitioning, or reassigning.
 argument-hint: ticket
 ---
 
@@ -8,13 +8,6 @@ argument-hint: ticket
 
 ```mermaid
 flowchart LR
-  source([ticket id, or none]) --> ticket-info --> done([ticket displayed])
+  source([ticket id, or none]) --> ticketinfo["actions/01-ticket-info.md"]
+  ticketinfo --> done([ticket displayed])
 ```
-
-## Actions
-
-Run the flow above. Read only the next action file.
-
-| Action        | Does                                                     |
-| ------------- | --------------------------------------------------------- |
-| ticket-info   | resolve ticket id, query configured tool, display fields |
