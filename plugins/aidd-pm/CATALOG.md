@@ -180,7 +180,7 @@ Auto-generated index of skills, agents, references and assets shipped by the `ai
 | `references` | [qualification.md](skills/09-defect/references/qualification.md) | - |
 | `references` | [readiness.md](skills/09-defect/references/readiness.md) | - |
 | `references` | [relations.md](skills/09-defect/references/relations.md) | - |
-| `-` | [SKILL.md](skills/09-defect/SKILL.md) | `Produces or refines a backlog Defect from an observed product mismatch. Use when the user wants to report, assess, link, order, transition, or verify a defect. Not for incident response, debugging, or implementation.` |
+| `-` | [SKILL.md](skills/09-defect/SKILL.md) | `Produces or refines a backlog Defect when the user reports, assesses, links, orders, transitions, or verifies one, not for incidents or debugging.` |
 
 #### `skills/10-task`
 

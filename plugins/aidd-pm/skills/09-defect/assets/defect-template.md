@@ -1,6 +1,12 @@
 ---
 type: defect
 status: reported
+source:
+depends_on:
+related_to:
+supersedes:
+order:
+estimate:
 ---
 
 # Defect: {{observed mismatch}}
@@ -11,7 +17,7 @@ status: reported
 
 ## Expected
 
-{{observable expected behavior}}
+{{observable expected behavior, and the check that will prove it restored}}
 
 ## Actual
 
@@ -31,8 +37,8 @@ status: reported
 
 ## Verification
 
-{{evidence that expected behavior is restored}}
+{{only once verified: evidence that expected behavior is restored}}
 
 ## Cancellation
 
-{{why it is no longer pursued}}
+{{only when `cancelled`: why it is no longer pursued}}
