@@ -37,7 +37,7 @@
     {
       "name": "aidd-pm",
       "source": "./plugins/aidd-pm",
-      "description": "Product backlog artifacts, refinement, Product Briefs, Epics, User Stories, Tasks, Spikes, Defects, research plans, insights, requirements, and specs.",
+      "description": "Product backlog artifacts, refinement, Product Briefs, Epics, User Stories, Tasks, Spikes, Defects, research plans, insights, impact, requirements, and specs.",
       "strict": true,
       "metadata": {
         "recommended": true
